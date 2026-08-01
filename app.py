@@ -128,7 +128,7 @@ def processar_triagem():
         # ----------------------------------------------------------------------
 
         headers = {
-            "Authorization": f"Bearer {api_key}",
+            "Authorization": f"Bearer {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}",
             "Content-Type": "application/json",
             "HTTP-Referer": "https://render.com",
             "X-Title": "HospTech Triagem IA"
