@@ -4,7 +4,7 @@ import requests
 
 from flask import Flask, request, jsonify, render_template
 
-app = Flask(__name__)
+app = Flask(https://atendimento-hospitalar.onrender.com)
 
 # ==============================================================================
 # PROMPT DO SISTEMA
