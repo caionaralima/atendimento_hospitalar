@@ -139,7 +139,7 @@ def processar_triagem():
         # ----------------------------------------------------------------------
 
         payload = {
-            "model": "openai/gpt-oss-20b:free",
+            "model": "inclusionai/ling-3.0-flash:free",
             "messages": [
                 {
                     "role": "system",
