@@ -4,7 +4,7 @@ import requests
 
 from flask import Flask, request, jsonify, render_template
 
-app = Flask(https://atendimento-hospitalar.onrender.com)
+app = Flask(_name_)
 
 # ==============================================================================
 # PROMPT DO SISTEMA
@@ -139,7 +139,7 @@ def processar_triagem():
         # ----------------------------------------------------------------------
 
         payload = {
-            "model": "",
+            "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
             "messages": [
                 {
                     "role": "system",
