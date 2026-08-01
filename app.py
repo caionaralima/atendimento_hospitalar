@@ -139,7 +139,7 @@ def processar_triagem():
         # ----------------------------------------------------------------------
 
         payload = {
-            "model": "google/gemma-4-26b-a4b-it:free",
+            "model": "openai/gpt-oss-20b:free",
             "messages": [
                 {
                     "role": "system",
